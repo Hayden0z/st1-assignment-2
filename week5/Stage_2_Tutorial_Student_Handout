@@ -1,0 +1,153 @@
+Activity 1 - Stakeholder Map
+
+Stakeholder 
+Patient 
+
+Need 
+To easily book appointments and be flexible with the times  
+
+Conflict 
+A patient may want easy and flexible booking time while a practitioner wants more of a fixed,structured and controlled schedule which conflicts with the patients as their would want an appointment that doesn’t give impact to their day as they may want appointment times where the  Practitioner is unavailable  
+
+
+Stakeholder
+Practitioner
+
+Need 
+To see patients previous appointment history 
+
+Conflict 
+Practitioners would want longer appointments with the patient to understand every important of the patient for the appointment but clinic management would want shorter times for more output of appointments     
+
+
+Stakeholder
+Receptionist 
+
+Need 
+Ways to quickly search up patients with speed,accuracy
+
+Conflict 
+Receptionist would want simple and easy workflows however Clinic management  would want very detailed records of patients which will slow down the Receptionist’s work speed   
+
+
+Stakeholder
+Clinic management 
+
+Need 
+Consistent reporting and management of the system  
+
+Conflict 
+Clinic management would want a lot of appointments a day which can make Practitioner feel rush or overloaded with work overload 
+
+
+
+
+
+
+Activity 2 - Functional or Non-Functional?
+□ Functional The system shall allow staff to cancel an appointment.
+□ Non-functional The system should remain responsive for the course-scale dataset.
+□ Non-functional The system shall retain cancelled appointments.
+□ Non-functional Core business logic should be independently testable.
+□ Functional The system shall search for a patient by ID.
+
+Activity 3 - Repair Ambiguous Requirements
+
+The system should be easy to use.
+Problem: is to vague and “easy to use” could mean to different types of people  
+
+Clarification question:What are the usability metrics for checking if a system is easy to use  
+
+Patient search should be fast.
+Problem: the term fast is unmeasurable so there is no response time(3 seconds) 
+
+Clarification question: What is the maximum acceptable time in seconds for the system to display patient information  
+
+The system should securely manage data.
+Problem: “securely manage” is to broad 
+Clarification question: what type of encryption and security methods need to be used in the website 
+
+Appointments should normally be easy to cancel.
+Problem: the words “normally” and “easy” are ambiguous and can lead to interpretation regarding system exceptions and user’s capabilities 
+
+Clarification question: What defines a "normal" cancellation scenario, and how many steps should the cancellation process take
+
+
+Activity 4 - AI Requirements Audit
+
+AI suggestion                             
+Patients receive SMS reminders.
+
+Classification 
+Assumption requiring validation 
+
+ Evidence / reason
+Has not been mentioned but could be very useful as all it needs is a patient's email for them to get a notification 
+
+
+AI suggestion     
+Facial recognition login.
+
+ Classification   
+Out of scope 
+
+Evidence / reason
+The system needs basic login features facial recognition is not one of them as it is too advanced for the system  
+
+
+AI suggestion  
+Receptionists create appointments.
+
+Classification       
+Confirmed 
+
+Evidence / reason
+This is confirmed as in a lot of clinics Receptionists usually make and create future  appointments for patients that just finished an appointment    
+
+
+AI suggestion  
+Online payment
+
+Classification 
+Unsupported 
+
+Evidence / reason
+It is unknown and hasn’t been mentioned that there are any online payments  
+
+
+AI suggestion  
+Practitioners view schedules.
+
+Classification 
+Confirmed 
+
+Evidence / reason
+Practitioners seeing their own schedule is very crucial for their job and important for a small system as if Practitioners are unable to view their schedule it will lead to massive confusion and being unprepared for a patient   
+
+AI suggestion  
+AI recommends treatments.
+
+Classification
+Unsupported 
+
+Evidence / reason
+Because practitioners are educated in the field and would be focused on people decision making  
+
+
+AI suggestion  
+Cancelled appointments remain in history
+
+Classification
+Confirmed 
+
+Evidence / reason
+Keeping cancelled appointments in history is normal as it can improve customer service 
+
+
+
+
+
+
+Exit question
+Why is 'AI suggested it' not sufficient evidence for a requirement?
+Because “AI suggested it” is just a statement or text and lacks a lot of evidence because it isn’t  backed up by a stakeholder or business value.    
